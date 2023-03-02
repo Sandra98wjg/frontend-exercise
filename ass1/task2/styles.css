@@ -1,0 +1,102 @@
+/*main body*/
+body{
+    font-family: Arial, serif;
+    background-color: #f0efee;
+}
+/*first part*/
+.head{
+    margin: 40px 120px 0 0;
+}
+.in-head{
+    margin: 20px 0 20px 70px;
+    font-size: 28px;
+    word-spacing: -1px;
+}
+#line{
+    align:left;
+    width: 25px;
+    margin: 20px 0 20px 70px;
+}
+/*total-cards*/
+.cards{
+    display: flex;
+    justify-content: center;
+}
+/*each card*/
+.card{
+    background-color: white;
+    margin: 5px 10px 80px 10px;
+    width: 360px;
+    height: 420px;
+    text-align: center;
+}
+/*logo and small title*/
+.s-head{
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    box-shadow: 0 5px 10px -8px grey;
+    line-height: 10px;
+    margin-bottom: 25px;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    fill: #008228;
+}
+.title{
+    color: #008228;
+    margin: 8px 0 3px 20px;
+    font-size: 20px;
+}
+/*rate part*/
+.rate-word{
+    padding: 0 93px;
+    font-size: 15px;
+    margin: 25px 0 30px 0;
+    height: 55px;
+    line-height: 25px;
+
+}
+.rate{
+    position: relative;
+    top:6px;
+    font-size: 25px;
+}
+/*middle part*/
+.mid-word{
+    padding: 0 55px 34px 55px;
+}
+/*button part*/
+.btn{
+    background-color: #008228;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    line-height: 20px;
+    margin: 0;
+    font-size: 18px;
+}
+.r-arr{
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: black;
+}
+
+.btn span:before {
+    content: '';
+}
+
+.btn:hover span:before {
+    margin:0 0 0 5px;
+    background-color: black;
+}
+/*small words part*/
+.s-words{
+    color: #b3b5bb;
+    font-size: 10px;
+    margin: 0;
+    padding: 35px 45px;
+}

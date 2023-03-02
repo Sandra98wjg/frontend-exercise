@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ass1 Task4</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" id="first-name" onchange="fName()"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" id="last-name" onchange="lName()"></td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td><input type="text" id="b-day" onchange="bDay()"></td>
+            </tr>
+            <tr>
+                <td>Favourite cheese</td>
+                <td><label>
+                    <select id="f-cheese" onchange="fCheese()">
+                        <option>Haloumi</option>
+                        <option>Brie</option>
+                    </select>
+                </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Cities lived in</td>
+                <td onchange="lCity()">
+                    <input type="checkbox" name="city" value="Adelaide">Adelaide<br>
+                    <input type="checkbox" name="city" value="Perth">Perth<br>
+                    <input type="checkbox" name="city" value="Hobart">Hobart<br>
+                    <input type="checkbox" name="city" value="Darwin">Darwin<br>
+                </td>
+            </tr>
+        </table>
+        <button onclick="remove()">Remove</button><br>
+        <textarea rows="10" cols="60" id="output-el"></textarea>
+        <script src="index.js"></script>
+    </body>
+</html>

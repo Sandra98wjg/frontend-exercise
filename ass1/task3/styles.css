@@ -1,0 +1,116 @@
+/*large img part*/
+body{
+    font-family: Arial, serif;
+    margin: 0;
+}
+/*upper part*/
+#cards-1 {
+    margin: 15px 20px 110px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo-word{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 275px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.upper-word{
+    color: #1ab1c4;
+    font-weight: bold;
+    margin: 30px 0 0 0;
+}
+/*lower part*/
+#cards-2{
+    height: 100%;
+    background-color: #d5f1f4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#lower-title{
+    color: #1ab1c4;
+    padding: 50px 0 25px 0;
+    margin: 0;
+}
+#lower-sub{
+    color: #97a1aa;
+    margin: 0;
+    font-size: 5px;
+}
+
+#lower-words{
+    margin: 30px 27px 24px 27px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.back-red{
+    background-color: #ec1d23;
+}
+.back-blue{
+    background-color: #7ebec4;
+}
+.l-word{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 110px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 0 45px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/*small img part*/
+@media all and (max-width: 700px) {
+    /*change: 1.top margin 2.bigger font size 3.margin*/
+    #cards-1{
+        margin-top: 80px;
+        margin-bottom: 65px;
+    }
+    .logo{
+        height: 230px;
+        width: 230px;
+    }
+    .logo-word{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 390px;
+        width: 400px;
+        font-size: 27px;
+        text-align: center;
+    }
+
+    #lower-title{
+        margin: 30px auto 40px auto;
+        font-size: 50px;
+    }
+    #lower-sub{
+        margin: 0 170px 8px 170px;
+        font-size: 20px;
+    }
+    .l-word{
+        width: 210px;
+        height: 275px;
+        padding: 0 130px;
+        margin: 22px 0;
+        font-size: 40px;
+        border-radius: 15px;
+    }
+}
+
+
